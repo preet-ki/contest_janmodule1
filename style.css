@@ -1,0 +1,61 @@
+
+.cardss{
+    position: relative;
+    top:50px;
+    display:flex;
+    justify-content: space-evenly;
+  
+    
+}
+
+.carousel slide{
+    position: relative;
+    left:10px;
+}
+#one{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#card-1,#card-2,#card-3{
+  width: 200px;
+}
+
+#accordions{
+    position: relative;
+    top:100px;
+    border: 1px solid grey;
+}
+.table{
+    position: relative;
+    top:150px;
+    border: 1px solid black;
+}
+.form{
+    position: relative;
+    top:200px;
+}
+#mail,#password,#confirm,#submit{
+    margin-top: 10px;
+}
+#threes,#fours,#fives{
+    padding-left: 20px;
+}
+
+@media screen and (max-width:393px){
+
+    .cardss{
+        display:flex;
+        flex-direction: column;
+    }
+    #only{
+        display: flex;
+        flex-direction: column;
+    }
+    #first,#second,#third{
+        position: absolute;
+        left:70%;
+        font-size: 300px;
+    }
+
+}
