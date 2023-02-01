@@ -7,6 +7,9 @@
   
     
 }
+#btn{
+    visibility: hidden;
+}
 
 .carousel slide{
     position: relative;
@@ -56,6 +59,9 @@
         position: absolute;
         left:70%;
         font-size: 300px;
+    }
+    #btn{
+    visibility:visible;
     }
 
 }
